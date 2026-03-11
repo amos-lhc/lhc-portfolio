@@ -3,136 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>李汉超 | AI 驱动的增长营销专家</title>
+    <title>李汉超 | Hanchao Li - Digital Growth & AI Strategy</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+        .bg-gradient { background: radial-gradient(circle at top right, #f8fafc, #e2e8f0); }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+<body class="bg-gradient text-slate-900 leading-relaxed">
 
-    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="text-xl font-bold gradient-text">LI HANCHAO</span>
-            <div class="space-x-8 hidden md:flex font-medium text-sm">
-                <a href="#about" class="hover:text-blue-600 transition">关于我</a>
-                <a href="#experience" class="hover:text-blue-600 transition">职业历程</a>
-                <a href="#projects" class="hover:text-blue-600 transition">项目案例</a>
-                <a href="#skills" class="hover:text-blue-600 transition">核心技能</a>
+    <nav class="fixed w-full z-50 glass border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-extrabold tracking-tighter">LI HANCHAO.</span>
+            <div class="space-x-6 hidden md:flex text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-blue-600 transition">关于</a>
+                <a href="#experience" class="hover:text-blue-600 transition">职业</a>
+                <a href="#projects" class="hover:text-blue-600 transition">项目</a>
+                <a href="#thoughts" class="hover:text-blue-600 transition">思考</a>
+                <a href="#skills" class="hover:text-blue-600 transition">技能</a>
             </div>
+            <a href="mailto:lhc33577@163.com" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-bold shadow-lg shadow-blue-200 hover:scale-105 transition">Hire Me</a>
         </div>
     </nav>
 
-    <section id="about" class="pt-32 pb-20 px-6">
+    <section id="about" class="pt-40 pb-24 px-6">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-8">
+                <h1 class="text-6xl md:text-7xl font-extrabold mb-8 tracking-tight">
+                    让数据 <span class="text-blue-600">增长</span>,<br>让 AI <span class="text-purple-600">落地</span>.
+                </h1>
+                <p class="text-xl text-slate-500 mb-10 max-w-2xl leading-relaxed">
+                    拥有 7 年整合营销与跨行业扩展经验。我热衷于在<strong>营销数字化</strong>与<strong>政产学研联动</strong>的交汇点寻找增量。曾主导 0-10 万用户爆发增长，管理过 8 亿规模的销售 funnel，并致力于成为 AI 时代的深度营销思考者。
+                </p>
+                <div class="flex items-center gap-6">
+                    <span class="flex items-center gap-2 text-sm font-bold"><i class="fa-solid fa-location-dot text-blue-500"></i> 深圳 / 香港</span>
+                    <span class="flex items-center gap-2 text-sm font-bold"><i class="fa-solid fa-graduation-cap text-purple-500"></i> 香港中文大学 · 硕士</span>
+                </div>
+            </div>
+            <div class="md:col-span-4 bg-white p-8 rounded-3xl shadow-xl border border-slate-100">
+                <h4 class="font-bold mb-4 uppercase text-xs tracking-widest text-slate-400">快速概览</h4>
+                <ul class="space-y-4">
+                    <li class="flex justify-between border-b pb-2 text-sm"><span class="text-slate-400">核心优势</span><span class="font-bold">Growth Marketing</span></li>
+                    <li class="flex justify-between border-b pb-2 text-sm"><span class="text-slate-400">AI 实践</span><span class="font-bold">Prompt/AIGC Expert</span></li>
+                    <li class="flex justify-between border-b pb-2 text-sm"><span class="text-slate-400">语言</span><span class="font-bold">IELTS 7.0 / Bilingual</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 bg-slate-100 px-6">
         <div class="max-w-5xl mx-auto">
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <div class="flex-1">
-                    <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
-                        李 汉 超
-                    </h1>
-                    <p class="text-2xl text-slate-600 mb-8 font-light">
-                        整合营销专家 · <span class="text-blue-600 font-normal">AI 提效专家</span> · 业务增长顾问
-                    </p>
-                    <p class="text-lg text-slate-500 mb-10 leading-relaxed max-w-2xl">
-                        7 年+ 跨行业业务扩展经验，擅长将数字化策略转化为真实业务增量。在清华深研院主导实现 <strong class="text-slate-900">0 到 10 万</strong> 用户突破，并策划过年销售额 <strong class="text-slate-900">8 亿元</strong> 的商业综合体数字化营销方案。
-                    </p>
-                    <div class="flex gap-4">
-                        <a href="mailto:lhc33577@163.com" class="bg-slate-900 text-white px-8 py-3 rounded-full hover:bg-slate-800 transition shadow-lg">联系我</a>
-                        <div class="flex items-center gap-4 px-4 text-slate-600">
-                            <i class="fa-brands fa-weixin hover:text-green-500 cursor-pointer"></i>
-                            <i class="fa-solid fa-envelope hover:text-blue-500 cursor-pointer"></i>
+            <h2 class="text-4xl font-extrabold mb-16 text-center">职业全景图</h2>
+            <div class="space-y-16">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-slate-400 font-bold">2022.10 - 2026.02</div>
+                    <div class="md:col-span-3">
+                        <h3 class="text-2xl font-bold mb-2">清华大学深圳国际研究生院 · 深圳国际科技信息中心</h3>
+                        <p class="text-blue-600 font-semibold mb-4">科技文献专职研究员 (业务增长与服务推广)</p>
+                        <div class="grid md:grid-cols-2 gap-4 text-sm text-slate-600">
+                            <div class="bg-white p-4 rounded-xl shadow-sm">• 驱动用户量 0-10 万爆发增长，极大降低获客成本。</div>
+                            <div class="bg-white p-4 rounded-xl shadow-sm">• 建立全市 90%+ 高校渗透率，主导 AI 产品 B 端决策链触达。</div>
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4 w-full md:w-80">
-                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center">
-                        <div class="text-3xl font-bold text-blue-600">10W+</div>
-                        <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">用户增长</div>
+                <div class="grid md:grid-cols-4 gap-8 opacity-80">
+                    <div class="text-slate-400 font-bold">2024.04 - 2025.04</div>
+                    <div class="md:col-span-3 border-l-2 border-slate-300 pl-8">
+                        <h3 class="text-xl font-bold mb-2">深圳市教育局 (中外合作办学处)</h3>
+                        <p class="text-slate-500 mb-4">跟岗锻炼 · 政策研判与引才专班</p>
+                        <p class="text-sm text-slate-600 leading-relaxed">负责海外引才政策制定、专家评审会组织及全市高校建设调研。将市场化的效率带入政务环境，完成多项局党组汇报材料。</p>
                     </div>
-                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center">
-                        <div class="text-3xl font-bold text-purple-600">8亿</div>
-                        <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">年度销售额</div>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center">
-                        <div class="text-3xl font-bold text-indigo-600">7Y+</div>
-                        <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">营销经验</div>
-                    </div>
-                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center">
-                        <div class="text-3xl font-bold text-green-600">7.0</div>
-                        <div class="text-xs text-slate-400 mt-1 uppercase tracking-wider">IELTS 分数</div>
+                </div>
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-slate-400 font-bold">2019.05 - 2022.10</div>
+                    <div class="md:col-span-3">
+                        <h3 class="text-2xl font-bold mb-2">深业集团 (深圳控股)</h3>
+                        <p class="text-blue-600 font-semibold mb-4">营销品牌策划</p>
+                        <p class="text-sm text-slate-600 leading-relaxed mb-4">主导 8 亿元季度销售目标达成。重构 SEM/SEO 及社交媒体精准投放漏斗，独立管理数千万预算与戴德梁行等专业团队。</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experience" class="py-20 bg-white px-6 border-y border-slate-200">
+    <section id="thoughts" class="py-24 px-6 bg-slate-900 text-white overflow-hidden relative">
+        <div class="max-w-6xl mx-auto relative z-10">
+            <h2 class="text-4xl font-extrabold mb-16 text-center italic">AI 时代的增长哲学</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 card-hover">
+                    <div class="text-blue-400 text-4xl mb-6 italic font-serif">"01"</div>
+                    <h4 class="text-xl font-bold mb-4">技术不是目的，而是倍增器</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">在清华的研究工作中我发现，AI 不应仅是搜索工具，而应成为科研决策的“副驾驶”。真正的增长来自于技术与行业深度的深度耦合。</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 card-hover">
+                    <div class="text-purple-400 text-4xl mb-6 italic font-serif">"02"</div>
+                    <h4 class="text-xl font-bold mb-4">数字化 funnel 的人性温度</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">在管理 8 亿销售额时，我意识到数字背后是人的决策逻辑。再完美的 SEM 投放，最终也需要顾问式销售（Consultative Selling）的情绪价值来闭环。</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 card-hover">
+                    <div class="text-green-400 text-4xl mb-6 italic font-serif">"03"</div>
+                    <h4 class="text-xl font-bold mb-4">跨界是创新的唯一源泉</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">从文学院到商学院，从政务系统到科技前沿。这种多维度的背景让我能用文学的叙事去包装枯燥的科技产品，用政策的严谨去赋能激进的营销。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-24 px-6">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-3xl font-bold mb-12 flex items-center gap-4">
-                <span class="w-8 h-1 bg-blue-600"></span> 职业历程
-            </h2>
-            <div class="space-y-12">
-                <div class="relative pl-8 border-l-2 border-slate-100">
-                    <div class="absolute -left-1.5 top-0 w-3 h-3 bg-blue-600 rounded-full"></div>
-                    <div class="flex flex-col md:flex-row md:justify-between mb-4">
-                        <h3 class="text-xl font-bold">清华大学深圳国际研究生院</h3>
-                        <span class="text-slate-400 text-sm">2022.10 - 2026.02</span>
+            <h2 class="text-4xl font-extrabold mb-16 text-center">学术背景</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm flex gap-6">
+                    <div class="text-blue-600 text-3xl"><i class="fa-solid fa-university"></i></div>
+                    <div>
+                        <h4 class="font-bold text-xl">香港中文大学</h4>
+                        <p class="text-slate-500">硕士 · 企业传播社会学</p>
+                        <p class="text-xs text-slate-400 mt-2">专注：数字公关、商务谈判、危机公关</p>
                     </div>
-                    <p class="text-blue-600 font-medium mb-4">科技文献专职研究员（业务增长与服务推广）</p>
-                    <ul class="text-slate-600 space-y-2 text-sm leading-relaxed">
-                        <li>• 协同团队实现用户量从 0 到 10 万爆发式增长，显著降低获客成本。</li>
-                        <li>• 负责“深圳科学导航”AI检索产品推广，覆盖全市 90% 以上高校。</li>
-                        <li>• 驱动产学研闭环，策划低空经济、IP出海等跨行业研讨会。</li>
-                    </ul>
                 </div>
-                <div class="relative pl-8 border-l-2 border-slate-100">
-                    <div class="absolute -left-1.5 top-0 w-3 h-3 bg-slate-300 rounded-full"></div>
-                    <div class="flex flex-col md:flex-row md:justify-between mb-4">
-                        <h3 class="text-xl font-bold">深业集团（深业泰富）</h3>
-                        <span class="text-slate-400 text-sm">2019.05 - 2022.10</span>
+                <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm flex gap-6">
+                    <div class="text-purple-600 text-3xl"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div>
+                        <h4 class="font-bold text-xl">南京大学</h4>
+                        <p class="text-slate-500">学士 · 汉语言文学</p>
+                        <p class="text-xs text-slate-400 mt-2">专注：文学理论、广告创意、电影艺术</p>
                     </div>
-                    <p class="text-blue-600 font-medium mb-4">营销品牌策划</p>
-                    <ul class="text-slate-600 space-y-2 text-sm leading-relaxed">
-                        <li>• 驱动季度销售额达 8 亿元，重构数字化销售漏斗，优化 SEM/SEO。</li>
-                        <li>• 针对 B 端大客户进行市场分析与约访谈判，提升资产竞争力。</li>
-                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="py-20 px-6">
-        <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-16">核心技能与 AI 工具</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100">
-                    <i class="fa-solid fa-rocket text-4xl text-blue-500 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">业务增长</h3>
-                    <p class="text-slate-500 text-sm">数字化营销策略、SEM/SEO、流量转化、顾问式销售、大客户谈判</p>
+    <section id="skills" class="py-24 bg-slate-900 text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-8">技能图谱</h2>
+                    <p class="text-slate-400 mb-12 italic">"AI 提效不仅仅是掌握工具，更是重塑工作流。"</p>
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex justify-between mb-2 text-sm"><span>AI Prompt Engineering / AIGC</span><span>95%</span></div>
+                            <div class="w-full bg-white/10 h-1.5 rounded-full"><div class="bg-blue-500 h-1.5 rounded-full w-[95%]"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2 text-sm"><span>Growth Marketing / SEM / SEO</span><span>90%</span></div>
+                            <div class="w-full bg-white/10 h-1.5 rounded-full"><div class="bg-purple-500 h-1.5 rounded-full w-[90%]"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2 text-sm"><span>B2B Sales / Key Account Mgt</span><span>85%</span></div>
+                            <div class="w-full bg-white/10 h-1.5 rounded-full"><div class="bg-green-500 h-1.5 rounded-full w-[85%]"></div></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100">
-                    <i class="fa-solid fa-microchip text-4xl text-purple-500 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">AI 提效</h3>
-                    <p class="text-slate-500 text-sm">Prompt Engineering (ChatGPT/Grok)、AIGC 内容自动化 (可灵/Heygen/即梦)</p>
-                </div>
-                <div class="p-8 bg-white rounded-2xl shadow-sm border border-slate-100">
-                    <i class="fa-solid fa-earth-americas text-4xl text-green-500 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">国际视野</h3>
-                    <p class="text-slate-500 text-sm">中英双向商务谈判、雅思 7 分、中外合作办学政策咨询</p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 text-center">
+                        <p class="text-xs text-slate-500 uppercase mb-2">Language</p>
+                        <p class="font-bold">IELTS 7.0 / Mandarin</p>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 text-center">
+                        <p class="text-xs text-slate-500 uppercase mb-2">Certification</p>
+                        <p class="font-bold">Google Digital Marketing</p>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 text-center text-xs">
+                        <p class="text-xs text-slate-500 uppercase mb-2">Video/Media</p>
+                        <p class="font-bold">Heygen / Kling / PR</p>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 text-center text-xs">
+                        <p class="text-xs text-slate-500 uppercase mb-2">Research</p>
+                        <p class="font-bold">Web of Science / IncoPat</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 border-t border-slate-200 text-center">
-        <p class="text-slate-400 text-sm mb-4">© 2026 李汉超. 使用 AI 提效工具构建</p>
-        <div class="flex justify-center space-x-6 text-slate-400">
-            <span class="hover:text-blue-600 transition cursor-pointer">Email: lhc33577@163.com</span>
-            <span class="hover:text-blue-600 transition cursor-pointer">Tel: +86 15651933577</span>
+    <footer class="py-20 text-center border-t border-slate-200">
+        <h3 class="text-2xl font-bold mb-8 italic text-slate-400 tracking-widest">CONNECT WITH ME.</h3>
+        <div class="flex justify-center gap-10 text-slate-400 mb-10 text-xl">
+            <a href="mailto:lhc33577@163.com" class="hover:text-blue-600 transition"><i class="fa-solid fa-envelope"></i></a>
+            <i class="fa-brands fa-weixin hover:text-green-500 cursor-pointer transition"></i>
+            <a href="tel:+8615651933577" class="hover:text-slate-900 transition"><i class="fa-solid fa-phone"></i></a>
         </div>
+        <p class="text-slate-400 text-xs">Built with precision & AI. © 2026 Hanchao Li.</p>
     </footer>
 
 </body>
